@@ -196,5 +196,5 @@ $(document).ready(function() {
         };    
     };
 });
-
+ 
 initMap();
