@@ -33,6 +33,9 @@ function initMap() {
     }
     
     markerCluster = new MarkerClusterer(map, markers, {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+    markerCluster.setMaxZoom(1);
+    markerCluster.setGridSize(1);
+    markerCluster.redraw();
 }
 
 var iconBase = "./img/";
