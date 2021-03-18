@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Map</title>
+</head>
+<body>
+<div class="container">
+    <div class="map-wrap">
+        <!-- filter -->
+        <div class="filters-wrapper">
+            <div class="filter-select-wrap">
+                <div class="filter-select">
+                    <h3>Country</h3>
+                    <select class="filter filter-country">
+                        <option value="all">Choose a country</option>
+                        <option value="Country 1">Country 1</option>
+                        <option value="Country 2">Country 2</option>
+                        <option value="Country 3">Country 3</option>
+                        <option value="Country 4">Country 4</option>
+                        <option value="Country 5">Country 5</option>
+                        <option value="Country 6">Country 6</option>
+                    </select>
+                </div>
+            
+                <div class="filter-select">
+                    <h3>State</h3>
+                    <select class="filter filter-state">
+                        <option value="all">Choose a state</option>
+                        <option value="State 1">State 1</option>
+                        <option value="State 2">State 2</option>
+                        <option value="State 3">State 3</option>
+                        <option value="State 4">State 4</option>
+                        <option value="State 5">State 5</option>
+                        <option value="State 6">State 6</option>
+                        <option value="State 7">State 7</option>
+                        <option value="State 8">State 8</option>
+                    </select>
+                </div> 
+            
+                <div class="filter-select">
+                    <h3>City</h3>
+                    <select class="filter filter-city">
+                        <option value="all">Choose a city</option>
+                        <option value="City 1">City 1</option>
+                        <option value="City 2">City 2</option>
+                        <option value="City 4">City 4</option>
+                        <option value="City 5">City 5</option>
+                        <option value="City 6">City 6</option>
+                        <option value="City 7">City 7</option>
+                        <option value="City 8">City 8</option>
+                        <option value="City 9">City 9</option>
+                        <option value="City 10">City 10</option>
+                        <option value="City 11">City 11</option>
+                        <option value="City 12">City 12</option>
+                        <option value="City 13">City 13</option>
+                        <option value="City 14">City 14</option>
+                    </select>
+                </div>
+            
+                <div class="filter-select">
+                    <h3>Store type</h3>
+                    <select class="filter filter-stor">
+                        <option value="all">Choose a type</option>
+                        <option value="Traditional">Traditional</option>
+                        <option value="Online">Online</option>
+                    </select>
+                </div>
+            </div>
+            <button id="resetFilter">reset</button>
+        </div>
+        <!-- map -->
+        <div id="store-map"></div>
+    </div>
+</div>
+    <!-- scripts -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=////KEY////"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-marker-clusterer/1.0.0/markerclusterer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="with-clustering/script.js" type="text/javascript"></script>
+</body>
+</html>
